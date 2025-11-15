@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Dark Theme für die Todo App */
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39; /* gray-900 */
+  --background-end-rgb: 31, 41, 55; /* gray-800 */
+}
+
+html {
+  background-color: rgb(17, 24, 39); /* gray-900 */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    135deg,
+    rgb(17, 24, 39) 0%,
+    rgb(31, 41, 55) 50%,
+    rgb(17, 24, 39) 100%
+  );
+  min-height: 100vh;
+}
+
+/* Custom Animation Classes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}

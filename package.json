@@ -1,0 +1,49 @@
+{
+  "name": "todo-app-nextjs-prisma",
+  "version": "1.0.0",
+  "description": "There are lots of tools that can help us connect to our Postgres database, send queries and map the results to JavaScript objects and arrays. The `postgres` package we used before is very simple: It allows us to send SQL queries to the database and returns the results as an array of objects. In addition, it helps to prevent [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp) by validating the variable parts / parameters of our queries. The `kysely` package offers a slightly higher level of abstraction and gives us typesafe handling of our SQL queries as a major benefit. ORM (Object Relational Mapper) tools operate on an even higher level of abstraction, they come with their own language and translate it into SQL under the hood. In theory we wouldn't need to know SQL at all to work with these tools, however that would not be a good idea :-).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "npx prisma migrate dev",
+    "db:generate": "npx prisma generate",
+    "db:studio": "npx prisma studio",
+    "db:push": "npx prisma db push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dci-fbw-wd25-d01/sql-10-prisma-exercise-steffenvolbeat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dci-fbw-wd25-d01/sql-10-prisma-exercise-steffenvolbeat/issues"
+  },
+  "homepage": "https://github.com/dci-fbw-wd25-d01/sql-10-prisma-exercise-steffenvolbeat#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.9.2",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "@tailwindcss/postcss": "^4.1.16",
+    "next": "^16.0.1",
+    "prisma": "^6.18.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

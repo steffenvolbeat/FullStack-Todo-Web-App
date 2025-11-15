@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[79119,["/_next/static/chunks/3f77bd424f19c817.js"],"default"]
+3:I[97367,["/_next/static/chunks/42879de7b8087bc9.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"gW9S1RIZz2R52XkwUkOVf","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900","children":["$","div",null,{"className":"container mx-auto px-4 py-8","children":[["$","div",null,{"className":"text-center mb-8","children":[["$","h1",null,{"className":"text-4xl md:text-6xl font-bold text-white mb-4","children":"📝 Todo App"}],["$","p",null,{"className":"text-lg md:text-xl text-gray-300 max-w-2xl mx-auto","children":["Eine moderne, responsive Todo-Anwendung mit"," ",["$","span",null,{"className":"font-semibold text-indigo-400","children":"Next.js"}],",",["$","span",null,{"className":"font-semibold text-indigo-400","children":" TypeScript"}]," ","und",["$","span",null,{"className":"font-semibold text-indigo-400","children":" Prisma"}]]}]]}],["$","$L2",null,{}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/3f77bd424f19c817.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
